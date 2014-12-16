@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <title>Notre Appli sncf</title>
+    <meta charset="UTF-8" />
   </head>
 
   <body>
-    <label>Enter a number inferior stric to 1000</label>
-    <input id="myNumber" type="text" name="myNumber" placeholder="your number"/>
-    <div class="button" onclick="main()">Start</div>
-    <label>MyResult:</label>
-    <div id="result"></div>
+    <header>
+			<div class="wrapper">
+				<div class="logo-search">
+					<img src="img/logo.png" />
+					<form method="POST" action="index.html">
+						<input type="search" required class="search">
+						<input type="submit" name="submit" value="Rechercher" class="submit">
+					</form>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+    <main>
+      <div>
+        <ul>
+          <li><div> Ligne 1 </div></li>
+          <li><div> Ligne 2 </div></li>
+          <li><div> Ligne 3 </div></li>
+          <li><div> Ligne 4 </div></li>
+        </ul>
+      </div>
+    </main>
+
+
   </body>
 
 </html>
