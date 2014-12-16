@@ -28,14 +28,6 @@ a {
     margin: 0 auto;
 }
 
-header .logo-search, header .logo-search img, header .logo-search form, main header aside, main header .name, main header .statistics, main h2, body .wrapper > aside, body .wrapper > main {
-    float: left;
-}
-
-header .user, main header .links, main .station {
-    float: right;
-}
-
 /***********/
 /* Header */
 /**********/
@@ -66,4 +58,43 @@ input.search {
     border: 1px solid hsl(209, 36%, 86%);
     border-radius: 15px;
     box-shadow: inset 1px 1px 5px #d5d5d5;
+}
+
+/*Station de métro**/
+button{
+     font-family: Arial,sans-serif;
+     font-size: 1em;
+     width: 100px;
+     padding-top: 7px; /*permet le centrage vertical*/
+     text-align: center;
+     color: white;
+     background: grey;
+  	 border-radius: 40%;
+     cursor: pointer;
+}
+button:hover{
+     color: #222;
+     background: #555;
+}
+
+button:active{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+}
+
+.clear{
+  float: left;
+}
+
+figure img{
+  width: 150px;
+}
+/*list*/
+ul {
+	list-style-type:none;
+}
+
+ul li{
+  margin: 10px;
 }
